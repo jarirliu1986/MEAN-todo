@@ -1,0 +1,17 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "functions:\r 1 a user can add, edit, and delete 'todos'\r 2 each todo can be marked as complete\r 3 each todo can have one optional file attachment\r 4 one person cannot access the todos of another",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.2"
+  }
+}
